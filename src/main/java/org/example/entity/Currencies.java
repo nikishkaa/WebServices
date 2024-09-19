@@ -16,6 +16,6 @@ import java.util.List;
 @NoArgsConstructor
 @AllArgsConstructor
 public class Currencies {
-    @XmlElement(name = "currency")
-    private List<Currency> currencies;
+    @XmlElement(name = "Currency")
+    private List<Currency> Currencies;
 }

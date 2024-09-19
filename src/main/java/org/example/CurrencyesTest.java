@@ -22,7 +22,7 @@ public class CurrencyesTest {
     }
 
     @GET
-    @Path("/show-all-empls")
+    @Path("/show-all-cur")
     @Produces(MediaType.APPLICATION_XML)
     public List<Currency> getAllCur() {
         return currenciesDao.findAll();
@@ -54,8 +54,6 @@ public class CurrencyesTest {
             return Response.status(400).entity("Cur Not created").build();
         }
     }
-
-
 
 
 }

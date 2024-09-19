@@ -16,20 +16,20 @@ public class Currency {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(nullable = false, unique = true, length = 11)
-    private int id;
+    private int Id;
 
-    @Column(name = "NUMCODE", length = 20, nullable = true)
-    private int numCode;
+    @Column(name = "NumCode", length = 20, nullable = true)
+    private int NumCode;
 
-    @Column(name = "CHARCODE", length = 20, nullable = true)
-    private String charCode;
+    @Column(name = "CharCode", length = 20, nullable = true)
+    private String CharCode;
 
-    @Column(name = "SCALE", length = 20, nullable = true)
-    private int scale;
+    @Column(name = "Scale", length = 20, nullable = true)
+    private int Scale;
 
-    @Column(name = "NAME", length = 20, nullable = true)
-    private String name;
+    @Column(name = "Name", length = 20, nullable = true)
+    private String Name;
 
-    @Column(name = "RATE", length = 20, nullable = true)
-    private double RATE;
+    @Column(name = "Rate", length = 20, nullable = true)
+    private double Rate;
 }
